@@ -1,0 +1,66 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(270deg, #6a64e4, #9fa1ec);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.Container {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 16px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.18),
+    0 6px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.3s ease;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.workBtn {
+  background: #4f46e5;
+  color: white;
+}
+
+.workBtn:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+.personalBtn {
+  background: #e5e7eb;
+  color: #333;
+}
+
+.personalBtn:hover {
+  background: #d1d5db;
+  transform: translateY(-2px);
+}

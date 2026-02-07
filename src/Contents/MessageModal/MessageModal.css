@@ -1,0 +1,63 @@
+
+.msgOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.msgModal {
+  width: 320px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.2s ease;
+}
+
+.msgModal.success {
+  border-top: 6px solid #22c55e;
+}
+
+.msgModal.error {
+  border-top: 6px solid #ef4444;
+}
+
+.msgTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.msgText {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.msgBtn {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.msgBtn:hover {
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
