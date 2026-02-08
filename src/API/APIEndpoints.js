@@ -3,5 +3,6 @@ export const APIEndpoints = {
     getTasksById : '/GetTaskById',
     addTask : '/AddTask',
     editTask : '/EditTask',
-    deleteTask : '/DeleteTask'
+    deleteTask : '/DeleteTask',
+    taskCompleted : '/TaskCompleted'
 }

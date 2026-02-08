@@ -12,7 +12,7 @@ function TaskModal({ show, mode, task, taskCategory, onClose, onSave }) {
 
   useEffect(() => {
     if (isEdit && task) {
-      const levelMap = {High: 2, Medium: 1, Low: 0};
+      const levelMap = {High: 3, Medium: 2, Low: 1};
       setForm({
         task: task.Task || "",
         description: task.TaskDescription || "",
@@ -60,16 +60,16 @@ function TaskModal({ show, mode, task, taskCategory, onClose, onSave }) {
             setForm({ ...form, description: e.target.value })
           }
         />
-
         <select
           value={form.level}
           onChange={(e) =>
             setForm({ ...form, level: Number(e.target.value) })
           }
         >
-          <option value={2}>High</option>
-          <option value={1}>Medium</option>
-          <option value={0}>Low</option>
+          <option value={0} disabled>Select Task Level</option>
+          <option value={3}>High</option>
+          <option value={2}>Medium</option>
+          <option value={1}>Low</option>
         </select>
 
         <div className="modalBtns">
