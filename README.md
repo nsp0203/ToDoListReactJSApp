@@ -8,14 +8,14 @@ Users can create, update, delete, search, and categorize their todos with priori
    View all tasks <br/>
    Edit existing tasks <br/>
    Delete tasks <br/>
-**2. Searching To Do Task with its name**
-**3. Priority Levels**
+**2. Searching To Do Task with its name** <br/>
+**3. Priority Levels** <br/>
    Each task can be categorized based on its priority Level : <br/>
    a. High <br/>
    b. Medium <br/>
    c. Low <br/>
-**4. Categories :** Work and Personal
-**5. API Integration :** Connects to C# .NET Web API
+**4. Categories :** Work and Personal <br/>
+**5. API Integration :** Connects to C# .NET Web API 
 
 ## Consume it by using following process: 
 **1. Clone Repository :**
@@ -27,10 +27,10 @@ Users can create, update, delete, search, and categorize their todos with priori
    ```bash
    npm install
    ```
-**3. Configure API Base URL:**
-   Update your API base URL in ..\ToDoListReactJSApp\src\API\AxiosInstance.js File.
-   Make sure your .NET Web API is running before starting React.
-**4. For Starting the React Application:**
+**3. Configure API Base URL:** <br/>
+   Update your API base URL in ..\ToDoListReactJSApp\src\API\AxiosInstance.js File. <br/>
+   Make sure your .NET Web API is running before starting React. <br/>
+**4. For Starting the React Application:** 
    ```bash
    npm start
    ```
