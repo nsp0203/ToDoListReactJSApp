@@ -261,7 +261,7 @@ function Tasks() {
                         <tbody>
                             {filteredTasks.length === 0 ? (
                                 <tr>
-                                    <td colSpan="6" className="noData">
+                                    <td colSpan="8" className="noData">
                                         No tasks found
                                     </td>
                                 </tr>
