@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# To Do List Application
+A modern To Do List Application built using React JS that consumes a .NET Web API backend to manage tasks efficiently. <br/>
+Users can create, update, delete, search, and categorize their todos with priority levels through a clean and responsive user interface.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+**1. To Do Management:** <br/>
+   Create new tasks <br/>
+   View all tasks <br/>
+   Edit existing tasks <br/>
+   Delete tasks <br/>
+**2. Searching To Do Task with its name**
+**3. Priority Levels**
+   Each task can be categorized based on its priority Level : <br/>
+   a. High <br/>
+   b. Medium <br/>
+   c. Low <br/>
+**4. Categories :** Work and Personal
+**5. API Integration :** Connects to C# .NET Web API
 
-## Available Scripts
+## Consume it by using following process: 
+**1. Clone Repository :**
+   ```bash
+   git clone [<your-react-repo-url>](https://github.com/nsp0203/ToDoListReactJSApp.git)
+   cd ToDoListReactJSApp
+   ```
+**2. Install Dependencies:**
+   ```bash
+   npm install
+   ```
+**3. Configure API Base URL:**
+   Update your API base URL in ..\ToDoListReactJSApp\src\API\AxiosInstance.js File.
+   Make sure your .NET Web API is running before starting React.
+**4. For Starting the React Application:**
+   ```bash
+   npm start
+   ```
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Backend Repository:
+This frontend consumes APIs from below Repository: 
+https://github.com/nsp0203/ToDoListWebAPI.git
+   
